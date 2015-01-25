@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Creates a cashed version of submittes matrix 
+##and then finds an inverse matrix to it
 
-## Write a short comment describing this function
+## Create casche version of matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Find inverse of casched matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
